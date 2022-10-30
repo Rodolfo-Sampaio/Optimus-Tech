@@ -1,0 +1,13 @@
+@mixin link-before {
+	content: "";
+	width: 0;
+	position: absolute;
+	border-bottom: 2px solid $cor-stroke;
+	transition: 0.3s;
+	bottom: -6px;
+}
+
+@mixin link-before-hover {
+	border-bottom: 2px solid $cor-stroke;
+	width: 100%;
+}
