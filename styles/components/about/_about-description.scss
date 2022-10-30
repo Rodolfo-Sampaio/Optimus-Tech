@@ -1,0 +1,10 @@
+@import '../../abstract/variaveis';
+
+.about__description {
+    color: $cor-terciaria;
+    max-width: 790px;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.7rem;
+    margin-top: 2.25rem;
+}

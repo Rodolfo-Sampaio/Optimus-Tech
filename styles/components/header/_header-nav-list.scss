@@ -1,0 +1,15 @@
+@import '../../abstract/mixins';
+
+.header__nav__list {
+    display: flex;
+    column-gap: 2rem;
+    margin-right: 24%;
+
+    .header__nav__link::before {
+        @include link-before;
+    }
+    
+    .header__nav__link:hover::before {
+        @include link-before-hover;
+    }
+}

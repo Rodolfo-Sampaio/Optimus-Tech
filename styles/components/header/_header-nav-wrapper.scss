@@ -1,0 +1,33 @@
+@import '../../abstract/variaveis';
+@import '../../abstract/mixins';
+
+.header__nav__wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+
+    .header__nav__link::before {
+        @include link-before;
+    }
+    
+    .header__nav__link:hover::before {
+        @include link-before-hover;
+    }
+
+    .header__nav__link__reg {
+        background-color: $cor-primaria;
+        color: #FFFFFF;
+        padding: 12px 18px;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+    .header__nav__link__reg:hover {
+        background-color: lighten($cor-primaria, 7%);
+        transform: translateY(2px);
+    }
+
+    .header__nav__link__reg::before {
+        content: none;
+    }
+}
