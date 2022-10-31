@@ -1,0 +1,10 @@
+@import '../../abstract/variaveis';
+
+.vagas__span {
+    color: $cor-primaria;
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 4px 12px;
+    background-color: $background-color-primaria;
+    border-radius: 16px;
+}
