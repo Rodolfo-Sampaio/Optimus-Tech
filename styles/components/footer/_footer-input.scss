@@ -1,0 +1,12 @@
+@import "../../abstract/variaveis";
+
+.footer__input {
+    width: 360px;
+    height: 48px;
+    border: 1px solid $cor-stroke;
+    font: inherit;
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 8px;
+
+}

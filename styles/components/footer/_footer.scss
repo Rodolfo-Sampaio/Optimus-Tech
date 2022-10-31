@@ -1,0 +1,13 @@
+@import "../../abstract/variaveis";
+
+.footer {
+    box-sizing: border-box;
+    height: 430px;
+    background-color: $background-color-secundario;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

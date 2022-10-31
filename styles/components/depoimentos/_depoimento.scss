@@ -1,0 +1,10 @@
+@import "../../abstract/variaveis";
+
+.depoimento {
+    background-color: $background-color-primaria;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

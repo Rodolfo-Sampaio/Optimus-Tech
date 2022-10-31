@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     align-content: space-between;
     gap: 24px;
+    transition: background-color .3s;
 
     h5 {
         font-size: 18px;
@@ -25,6 +26,10 @@
         width: auto;
         color: $cor-terciaria;
         padding-bottom: 4px;
+    }
+
+    &:hover {
+        background-color: $background-color-secundario;
     }
 }
 

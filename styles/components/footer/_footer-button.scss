@@ -1,0 +1,24 @@
+@import "../../abstract/variaveis";
+
+.footer__button {
+	width: 116px;
+	height: 48px;
+	box-sizing: border-box;
+	font-weight: 500;
+	text-decoration: none;
+	background-color: $cor-primaria;
+	color: #ffffff;
+	border-radius: 8px;
+	transition: 0.3s;
+	border: none;
+	font: inherit;
+	margin-left: 14px;
+
+	&:hover {
+		background-color: lighten($cor-primaria, 7%);
+		transform: translateY(2px);
+	}
+}
+
+
+
