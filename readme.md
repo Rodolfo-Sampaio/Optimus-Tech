@@ -16,9 +16,7 @@ Front-End, orientado pela instrutora Giovanna Moeller. Com o objetivo de testar 
 
 <br>
 
-##  Explore o Optimus Tech! 👀
-
-Veja nosso site adaptável em 🚩[Optimus Tech](https://optimus-tech-henna.vercel.app/) e experimente diferentes tamanhos de tela pressionando `F12` e usando o Toggle Device Toolbar `Ctrl + Shift + M`.
+##  Explore o 🚩[Optimus Tech](https://optimus-tech-henna.vercel.app/)! 👀
 
 
 
